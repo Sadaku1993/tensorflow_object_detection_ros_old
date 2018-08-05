@@ -25,7 +25,9 @@ $ catkin make
 
 ## Download model
 ```
-$ roscd tensorflow_object_detection/models
+$ roscd tensorflow_object_detection
+$ mkdir models
+$ cd models
 $ wget http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_fpn_shared_box_predictor_640x640_coco14_sync_2018_07_03.tar.gz 
 ```
 
