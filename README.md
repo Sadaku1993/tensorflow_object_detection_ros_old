@@ -37,10 +37,10 @@ $ vim object_detection_ros.py
 ```
 **object_detection_ros.py**
 ```python
-    " MODEL_NAME= 'ssd_inception_v2_coco_11_06_2017'"
-    " # MODEL_NAME = 'ssd_mobilenet_v1_coco_2017_11_17'"
-    " # MODEL_NAME = 'ssdlite_mobilenet_v2_coco_2018_05_09'"
-    " # MODEL_NAME = 'ssd_resnet50_v1_fpn_shared_box_predictor_640x640_coco14_sync_2018_07_03'"
+    MODEL_NAME= 'ssd_inception_v2_coco_11_06_2017'
+    # MODEL_NAME = 'ssd_mobilenet_v1_coco_2017_11_17'
+    # MODEL_NAME = 'ssdlite_mobilenet_v2_coco_2018_05_09'
+    # MODEL_NAME = 'ssd_resnet50_v1_fpn_shared_box_predictor_640x640_coco14_sync_2018_07_03'
 ```
 
 ### Change param(topic name)
@@ -51,7 +51,7 @@ $ vim object_detection_ros.launch
 
 **object_detection.launch**
 ```
-per : GPUの使用率
+per : GPU utilization
 dev : GPU device
 image : Subscribe Topic(sensor_msgs/Image)
 object_detection/image : Publish Topic(sensor_msgs/Image)
