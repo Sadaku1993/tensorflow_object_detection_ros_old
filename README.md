@@ -70,3 +70,8 @@ image : Subscribe Topic(sensor_msgs/Image)
 /object_detection/image : Publish Topic(sensor_msgs/Image)
 /objectinfo : Publish Topic(amsl_recog_msgs/ObjectInfoArray)
 ```
+
+### Launch rosnode
+```
+$ roslaunch tensorflow_object_detection object_detection.launch
+```
