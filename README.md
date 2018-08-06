@@ -16,8 +16,17 @@ In this repository, I compiled the source code using ROS and Pyhon2.7
 - [tensorflow object detection api](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md)
 ### ROS Kinetic
 - [ROS Kinetic installation](http://wiki.ros.org/ja/kinetic/Installation/Ubuntu)
+### Clone amsl_recog_msgs pkg
+```
+$ cd ~/catkin_ws/src
+$ git clone https://github.com/Sadaku1993/amsl_recog_msgs
+$ cd ../
+$ catkin make
+```
+
 ### Clone this Repository
 ```
+$ cd ~/catkin_ws/src
 $ git clone https://github.com/Sadaku1993/tensorflow_object_detection
 $ cd catkin_ws
 $ catkin make
