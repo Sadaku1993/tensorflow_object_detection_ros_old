@@ -56,7 +56,7 @@ $ vim object_detection_ros.py
     MODEL_NAME = 'ssd_resnet50_v1_fpn_shared_box_predictor_640x640_coco14_sync_2018_07_03'
 ```
 
-### Change param(topic name)
+### Change param
 ```
 $ roscd tensorflow_object_detection/launch
 $ vim object_detection_ros.launch
@@ -67,5 +67,6 @@ $ vim object_detection_ros.launch
 per : GPU utilization
 dev : GPU device
 image : Subscribe Topic(sensor_msgs/Image)
-object_detection/image : Publish Topic(sensor_msgs/Image)
+/object_detection/image : Publish Topic(sensor_msgs/Image)
+/objectinfo : Publish Topic(amsl_recog_msgs/ObjectInfoArray)
 ```
